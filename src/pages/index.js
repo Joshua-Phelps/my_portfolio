@@ -17,7 +17,7 @@ class IndexPage extends React.Component {
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
         <div className='sidenav'>
-          <img src="./cover_photo.jpg" alt="Josh Smiling on Boat" />
+          <img src="https://drive.google.com/file/d/13xmQNRWPiICreCTeWqLxfe_8meH5V82t/view?usp=sharing" alt="Josh Smiling on Boat" />
           <a href="https://drive.google.com/file/d/1g5UVJPVuVAleX8PMe6lozMqdHkjzj1jM/view?usp=sharing" target="_blank">Resume</a>
           <a href="https://github.com/Joshua-Phelps" target="_blank">Github</a>
           <a href="https://www.linkedin.com/in/joshuaphelps24/" target="_blank">Linkedin</a>
