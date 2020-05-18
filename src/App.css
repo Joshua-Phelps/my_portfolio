@@ -20,6 +20,10 @@
   display: block;
 }
 
+.sidenav img {
+  margin-top: -12%;
+}
+
 /* Change color on hover */
 .sidenav a:hover {
   background-color: #ddd;
