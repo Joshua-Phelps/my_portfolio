@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import '../App.css'
 import coverPhoto from '../images/cover_photo.jpg'
-
+import Bio from '../components/bio'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
@@ -27,23 +27,27 @@ class IndexPage extends React.Component {
 
         <div className='content'>
         <Layout location={this.props.location} title={siteTitle}>
-
-          
-
           <h1>
             Welcome {" "}
             <span role="img" aria-label="wave emoji">
               👋
             </span>
           </h1>
-          <p>Welcome to my software engineering portfolio.</p>
-          <p>
-            This starter comes out of the box with styled components and Gatsby's
-            default starter blog running on Netlify CMS.
-          </p>
-          <p>Now go build something great!</p>
+          <h2>
+              About Me
+          </h2>
+            <Bio />
+          <h2>Project Demos</h2>
+          
+            <div >
+
+          {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/u5eMMfXUyk4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+              <iframe className='demos' width="373" height="210" src="https://www.youtube.com/embed/u5eMMfXUyk4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe className='demos' width="373" height="210" src="https://www.youtube.com/embed/6zrZ0ikvud4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+       
           <Link to="/blog/">
-            <Button marginTop="35px">Go to Projects</Button>
+            <Button marginTop="35px">See more Projects</Button>
           </Link>
         </Layout>
       </div>
