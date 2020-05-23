@@ -7,7 +7,6 @@ import ProjectDisplay from '../components/projectDisplay'
 
 class Projects extends React.Component {
   render() {
-    const { data } = this.props
     const siteTitle = 'Recent Projects'
 
     const songContolFeatures = [

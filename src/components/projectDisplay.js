@@ -1,8 +1,9 @@
 import React from 'react'
-import { Link } from "gatsby"
+import Layout from "./layout"
 
 const projectDisplay = ({ projectTitle, description, gitHubBackend, gitHubFrontend, website, youtube, youtubeTitle, features }) => {
-
+  const siteTitle = 'Recent Projects'
+  
   const renderFeatures = () => {
     return features.map(info => {
       return <li className='list-item'>{info}</li>
@@ -42,7 +43,6 @@ const projectDisplay = ({ projectTitle, description, gitHubBackend, gitHubFronte
         </div>
       </div>
     </>
-      
   )
 }
 
