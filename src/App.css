@@ -40,11 +40,15 @@
 }
 
 .padding-left {
-  padding-left: 20px
+  padding-left: 40px
 }
 
 .padding-left-less {
-  padding-left: 10px
+  padding-left: 30px
+}
+
+.center-text {
+  text-align: center;
 }
 
 .demos {

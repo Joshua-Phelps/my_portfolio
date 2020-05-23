@@ -46,7 +46,7 @@ class IndexPage extends React.Component {
               <iframe className='demos' width="373" height="210" src="https://www.youtube.com/embed/6zrZ0ikvud4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
        
-          <Link to="/blog/">
+          <Link to="/projects/">
             <Button marginTop="35px">See more Projects</Button>
           </Link>
         </Layout>
