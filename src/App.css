@@ -74,8 +74,11 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 }
 
-.grid-item-right h3 {
-  margin-top: 20px;
+
+.grid-item-right h4 {
+  margin-top: 15px;
+  font-size: 20px;
+  padding-left: 20px;
 }
 
 .grid-item-right i {
@@ -92,6 +95,13 @@
   display: grid;
   grid-template-columns: auto auto;
   padding: 10px;
+}
+
+.grid-container-index {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  overflow-x: auto;
+  margin-right: 6%;
 }
 
 .bio {

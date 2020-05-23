@@ -20,54 +20,59 @@ class Projects extends React.Component {
       'Implemented Auth with bcrypt passwords and JWT tokens for secure login and logout',
     ]
 
+    const flatPlateFeatures = [
+      'Utilized the MealDB API to pull and parse data to seed the database providing hundreds a real recipes for users to enjoy',
+      'Implemented a dynamic and controlled form to create new recipes and ingredients that allows the user to quickly create a new recipe',
+      'Applied a search function using React state to sort and filter recipes by category, region, and name making all recipes easily searchable',
+      'Used ActiveRecord and Ruby on Rails join tables to organize, store, and like recipes allowing the user to reference and select favorite recipes for quick access and future use.',
+      'Implemented Auth with bcrypt passwords and JWT tokens for secure login and logout',
+    ]
+
+    const capsuleClosetFeatures = [
+      'Worked on a team with two other developers to create an application using a Ruby on Rails api, Postgres database, and a React frontend',
+      'Implented a filtering feature on clothing items based on category, color, size, and brand that allows the user to quickly find a desired clothing item',
+      'Utilized React hooks and reducers for centralized state management, making it easier to to debug and modify state',
+      'Built reusable components resulting in a slimmer codebase',
+      'Created a dynamic drawer that allows to user to create and edit an outfit while viewing the contents of their closet',
+      'Implemented Auth with bcrypt passwords and JWT tokens for secure login and logout',
+      'Used Material UI to style components that allows for easy manipluation and quick theme changes',
+    ]
+
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Coding Projects" />
+        <SEO title="Projects" />
+
         <ProjectDisplay 
-        projectTitle={'Song Control'} 
-        description={'Songwriting application with writing tools designed to assist songwriters in the creative process'}
-        gitHubBackend={'https://github.com/Joshua-Phelps/mod-5-songwriting-backend'}
-        gitHubFrontend={'https://github.com/Joshua-Phelps/mod-5-songwriting-client'}
-        website={'https://song-control-client.herokuapp.com/'}
-        features={songContolFeatures}
-        youtube={"https://www.youtube.com/embed/u5eMMfXUyk4"}
-        youtubeTitle={'Song Control Demo'}
-      />
+          projectTitle={'Capsule Closet'} 
+          description={"A web application designed to minimize the user's closet by providing organization and quick outfit creation"}
+          gitHubBackend={'https://github.com/Joshua-Phelps/capsule-closet-backend'}
+          gitHubFrontend={'https://github.com/Joshua-Phelps/capsule-closet-client'}
+          features={capsuleClosetFeatures}
+          youtube={"https://www.youtube.com/embed/m9WLhJ9x4ts"}
+          youtubeTitle={'Capsule Closet Demo'}
+        />
 
-      {/* <ProjectDisplay 
-        projectTitle={'Song Control'} 
-        description={'Songwriting application with writing tools designed to assist songwriters in the creative process'}
-        gitHubBackend={'https://github.com/Joshua-Phelps/mod-5-songwriting-backend'}
-        gitHubFrontend={'https://github.com/Joshua-Phelps/mod-5-songwriting-client'}
-        website={'https://song-control-client.herokuapp.com/'}
-        features={songContolFeatures}
-        youtube={"https://www.youtube.com/embed/u5eMMfXUyk4"}
-        youtubeTitle={'Song Control Demo'}
-      /> */}
+        <ProjectDisplay 
+          projectTitle={'Song Control'} 
+          description={'Songwriting application with writing tools designed to assist songwriters in the creative process'}
+          gitHubBackend={'https://github.com/Joshua-Phelps/mod-5-songwriting-backend'}
+          gitHubFrontend={'https://github.com/Joshua-Phelps/mod-5-songwriting-client'}
+          website={'https://song-control-client.herokuapp.com/'}
+          features={songContolFeatures}
+          youtube={"https://www.youtube.com/embed/181d-tg6OPc"}
+          youtubeTitle={'Song Control Demo'}
+        />
 
-        <h2 className='padding-left'>FlatPlate</h2><span><i className='padding-left'>Recipe application designed to organize and create new recipes</i></span>
-          <div className='padding-left' >
-            <Link to="https://github.com/Joshua-Phelps/recipe-app-backend">Github - Backend</Link>{' '}
-            | <Link to="https://github.com/Joshua-Phelps/recipe-app-frontend">Github - Client</Link> 
-          </div>
-
-        <div className="grid-container">
-          <div className='grid-item'>
-            <div className='project-demo-video'>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/6zrZ0ikvud4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
-          </div>
-          <div className='grid-item-right'>
-            <h3>Description</h3>
-            <ul>
-              <li className='list-item'> Utilized the MealDB API to pull and parse data to seed the database providing hundreds a real recipes for users to enjoy</li>
-              <li className='list-item'> Implemented a dynamic and controlled form to create new recipes and ingredients that allows the user to quickly create a new recipe</li>
-              <li className='list-item'> Applied a search function using React state to sort and filter recipes by category, region, and name making all recipes easily searchable</li>
-              <li className='list-item'> Used ActiveRecord and Ruby on Rails join tables to organize, store, and like recipes allowing the user to reference and select favorite recipes for quick access and future use.</li>
-              <li className='list-item'> Implemented Auth with bcrypt passwords and JWT tokens for secure login and logout</li>
-            </ul>
-          </div>
-        </div>
-      
+        <ProjectDisplay 
+          projectTitle={'FlatPlate'} 
+          description={'Recipe application designed to organize and create new recipes'}
+          gitHubBackend={'https://github.com/Joshua-Phelps/recipe-app-backend'}
+          gitHubFrontend={'https://github.com/Joshua-Phelps/recipe-app-frontend'}
+          features={flatPlateFeatures}
+          youtube={"https://www.youtube.com/embed/6zrZ0ikvud4"}
+          youtubeTitle={'Flat Plate Demo'}
+        />
         <Link to="/">
           <div className='padding-left'>
             <Button marginTop="85px">Go Home</Button>

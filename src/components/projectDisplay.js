@@ -12,16 +12,20 @@ const projectDisplay = ({ projectTitle, description, gitHubBackend, gitHubFronte
   return (
     <>
       <div className='center-text'>
-        <h2 className='padding-left inline-block' style={{display: 'inline-block'}}>{projectTitle}</h2>
+        <h2 className='padding-left inline-block'>{projectTitle}</h2>
       </div>
       <div className='center-text'>
         <i className='inline-block'>{description}</i>
       </div>
       <br></br>
       <div className='padding-left' >
-        <Link to={gitHubBackend}>Github - Backend</Link>{' '}
-        | <Link to={gitHubFrontend}>Github - Client</Link>{' '}
-        | <Link to={website}>Website</Link>
+        <a href={gitHubBackend} target="_blank" >Github - Backend</a>{' '}
+        | <a href={gitHubFrontend} target="_blank" >Github - Client</a>{' '}
+        {website && <>
+          <span>| </span> 
+          <a href={website} target="_blank" >Website</a>
+          </>
+        }
       </div>
 
       <div className="grid-container">
@@ -31,7 +35,7 @@ const projectDisplay = ({ projectTitle, description, gitHubBackend, gitHubFronte
           </div>
         </div>
         <div className='grid-item-right'>
-          <h4>Description</h4>
+          <h4>Features & Description</h4>
           <ul>
             {renderFeatures()}
           </ul>

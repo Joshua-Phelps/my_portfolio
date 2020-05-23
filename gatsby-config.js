@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Gatsby Starter Personal Blog`,
+    title: `Joshua Phelps' Portfolio Website`,
     author: `Joshua Phelps`,
     description: `A protfolio website for Joshua Phelps`,
     siteUrl: `https://joshua-phelps.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: '',
     },
   },
   plugins: [
@@ -77,7 +77,7 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         // edit below
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/j-icon.png`,
       },
     },
     {
