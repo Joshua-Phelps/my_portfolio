@@ -19,7 +19,7 @@ class IndexPage extends React.Component {
         />
         <div className='sidenav'>
           <img src={coverPhoto} alt="Josh Smiling on Boat" />
-          <a href="https://drive.google.com/file/d/1g5UVJPVuVAleX8PMe6lozMqdHkjzj1jM/view?usp=sharing" target="_blank">Resume</a>
+          <a href="https://drive.google.com/file/d/1s4ydcEEQAKi-zrToL4Ba5h1xyAiv6zyu/view?usp=sharing" target="_blank">Resume</a>
           <a href="https://github.com/Joshua-Phelps" target="_blank">Github</a>
           <a href="https://www.linkedin.com/in/joshuaphelps24/" target="_blank">Linkedin</a>
           <a href="https://medium.com/@jugtuttle" target="_blank">Blog</a>
