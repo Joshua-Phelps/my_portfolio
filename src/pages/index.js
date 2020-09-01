@@ -20,7 +20,7 @@ class IndexPage extends React.Component {
         <div className="sidenav">
           <img src={coverPhoto} alt="Josh Smiling on Boat" />
           <a
-            href="https://docs.google.com/document/d/1oL71HPZDh_4F_9Ea84rF50ZW9PlulK62jViu_QgoiEM/edit?usp=sharing"
+            href="https://drive.google.com/file/d/1Hqc6wb6laVoO15ka4FSP1sYc3Jy2DfZX/view?usp=sharing"
             target="_blank"
           >
             Resume
