@@ -31,7 +31,7 @@ class IndexPage extends React.Component {
           <a href="https://www.linkedin.com/in/joshuaphelps24/" target="_blank">
             Linkedin
           </a>
-          <a href="hhttps://medium.com/@joshua.phelps89" target="_blank">
+          <a href="https://medium.com/@joshua.phelps89" target="_blank">
             Blog
           </a>
         </div>
